@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+}
+
+@import url('https://fonts.cdnfonts.com/css/abc-ginto-nord-unlicensed-trial');
+
+
+@font-face {
+    font-family: 'gg sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('gg sans Bold'), url('Fonts/ggsans/gg\ sans\ Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'gg sans Normal Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('gg sans Normal Regular'), url('Fonts/ggsans/gg\ sans\ Regular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'gg sans Medium Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('gg sans Medium Regular'), url('Fonts/ggsans/gg\ sans\ Medium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'gg sans SemiBold Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('gg sans SemiBold Regular'), url('Fonts/ggsans/gg\ sans\ Semibold.woff') format('woff');
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "gg sans, sans serif";
+    min-width: 320px;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    height: 100%;
+    background-color: #404eed;
+    background-image: url(Assets/herobg.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.left{
+    display: inline-block;
+    width: 520px;
+    position: absolute;
+    left: -150px;
+    bottom: 0;
+
+}
+.right{
+    display: inline-block;
+    width: 520px;
+    position: absolute;
+    right:-150px;
+    bottom: 0;
+    z-index: 1;
+    
+}
+
+header {
+    height: 80px;
+
+}
+
+header ul li {
+    margin-right: 35px;
+    font-size: 16px;
+    font-family: 'gg sans SemiBold Regular';
+
+}
+
+header ul li:last-child {
+    margin-right: 0px;
+}
+
+header ul li a {
+    color: white;
+}
+
+.button {
+    padding: 10px 17px;
+    border-radius: 30px;
+    background-color: white;
+    font-family: 'gg sans Bold';
+    font-size: 14px;
+}
+
+.button:hover {
+    color: #5865f2;
+    transition: 0.3s;
+}
+
+.blk_btn {
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+
+#spotlight {
+    position: relative;
+    padding: 100px 0px 100px 0px;
+    z-index: 11;
+
+
+}
+
+#spotlight .top {
+    width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#spotlight .top h1 {
+    color: white;
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-family: 'ABC Ginto Normal Unlicensed Trial 800', sans-serif;
+}
+
+#spotlight .top p {
+    color: white;
+    font-family: 'gg sans Normal Regular';
+    font-size: 20px;
+    line-height: 35px;
+}
+
+#spotlight .bottom {
+
+    justify-content: center;
+    gap: 10px;
+}
