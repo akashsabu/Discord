@@ -6,13 +6,15 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.cdnfonts.com/css/abc-ginto-nord-unlicensed-trial" rel="stylesheet">
     <title>Discord | Your Place to Talk and Hang Out</title>
+    <script src="https://kit.fontawesome.com/a83bf5d8e7.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <div id="main">
         <header class="flex">
             <div class="wrapper flex">
                 <div style="width: 125px;"><img src="Assets/discord_logo.svg" alt="discord_logo"></div>
-                <nav>
+                <nav class="nav-menu" >
                     <ul class="flex">
                         <li><a href="#">Download</a></li>
                         <li><a href="#">Nitro</a></li>
@@ -23,15 +25,19 @@
                         <li><a href="#">Careers</a></li>
                     </ul>
                 </nav>
-                <div ><a class="button" href="#">Open Discord</a></div>
+               
+                <div ><a class="header-button" href="#">Open Discord</a></div> 
             </div>
         </header>
-        <div class="spotlight" class="wrapper">
+
+        <div class="spotlight wrapper ">
+            <div class="left"><img src="Assets/heroimage2.svg" alt="hero_img2"></div>
+
             <div class="top">
                 <h1>IMAGINE A PLACE...</h1>
                 <p>
-                    ...where you can belong to school club, a gaming group, or a worldwide art community.<br>
-                     Where just you and a handful of friends can spend time together. A place that makes it easy<br>  to talk everyday and hangout more often.
+                    ...where you can belong to school club, a gaming group, or a worldwide art community. 
+                     Where just you and a handful of friends can spend time together. A place that makes it easy to talk everyday and hangout more often.
                 </p>
             </div>
             <div class="bottom flex">
@@ -42,9 +48,9 @@
                 <div><a class="button blk_btn" href="#">Open Discord in your browser</a></div>
 
             </div>
+            <div class="right"><img src="Assets/heroimage1.svg" alt="hero_img1"></div>
+
         </div>
-        <div class="left"><img src="Assets/heroimage2.svg" alt="hero_img2"></div>
-        <div class="right"><img src="Assets/heroimage1.svg" alt="hero_img1"></div>
     </div>
     <div id="center">
         <div class="features">
@@ -79,29 +85,95 @@
                     </div>
                 </div>
 
-
-
                 <div class=" grey">
                     <div class="wrapper ">     
                         <div class="txt">
                             <h1>RELIABLE TECH FOR STAYING CLOSE</h1>
-                            <p>Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their <br>
+                            <p>Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their 
                                 games, or gather up and have a drawing session with screen share.</p>
                         </div>
                         <div class="ftr_img"><img src="Assets/ftr_img4.svg" alt="ftr_img4"></div>
                         <div>
                             <div class="img_container">
-                                <h1>Ready to start Your journey?</h1>
+                                <h3>Ready to start Your journey?</h3>
                             </div>
-                            <div class="btn_container"><a class="button" href="#">Download for Windows</a></div>
+                            <div class="btn_container">
+                                <a class="button bg_violet" href="#"><i class="fa-solid fa-arrow-down"></i> Download for Windows</a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-
-
             </div>
         </div>
     </div>  
+    <footer style="background-color: #23272a;">
+        <div class="wrapper footer_flex">
+  
+            <div style="width:265px; margin-bottom: 60px;">
+                <div class="custom-select" style="width:200px;">
+                    <select>
+                        <option value="1">English</option>
+                        <option value="2">German</option> 
+                    </select>
+                </div>
+        
+                <div class="logo">
+                    <a href="#"><span><img src="Assets/x_logo.svg" alt="x"></span></a>
+                    <a href="#"><span><img src="Assets/instagram_logo.svg" alt="instagram"></span></a>
+                    <a href="#"><span><img src="Assets/facebook_logo.svg" alt="facebook"></span></a>
+                    <a href="#"><span><img src="Assets/youtube_logo.svg" alt="youtube"></span></a>
+                    <a href="#"><span><img src="Assets/tiktok_logo.svg" alt="tiktok"></span></a>
+                </div>
+            </div>
+
+          
+            <div  class="div-link">
+                <div class="footer-link">
+                    <p>Product</p>
+                    <a href="#">Download</a>
+                    <a href="#">Nitro</a>
+                    <a href="#">Status</a>
+                    <a href="#">App Directory</a>
+                    <a href="#">New Mobile Experience</a>
+                </div>
+                <div class="footer-link">
+                    <p>Company</p>
+                    <a href="#">About</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Brand</a>
+                    <a href="#">Newsroom</a>
+                </div>
+                <div class="footer-link">
+                    <p>Resources</p>
+                    <a href="#">College</a>
+                    <a href="#">Support</a>
+                    <a href="#">Safety</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Feedback</a>
+                    <a href="#">StreamKit</a>
+                    <a href="#">Creators</a>
+                    <a href="#">Community</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Gaming</a>
+                    <a href="#">Official 3rd Party Merch</a>
+                </div>
+                <div class="footer-link">
+                    <p>Policies</p>
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Cookie Settings</a>
+                    <a href="#">Guidelines</a>
+                    <a href="#">Acknowledgements</a>
+                    <a href="#">Licenses</a>
+                    <a href="#">Company Information</a>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper footer-bottom flex">    
+            <a href="#"><span><img src="Assets/discord_logo.svg" alt="Discord"></span></a>
+            <div><a class="footer-button " href="#">Open Discord</a></div>
+        </div>
+    </footer>
 </body>
 </html>
