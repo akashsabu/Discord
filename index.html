@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assets/favicon.png" type="image/x-icon">
     <link href="https://fonts.cdnfonts.com/css/abc-ginto-nord-unlicensed-trial" rel="stylesheet">
     <title>Discord | Your Place to Talk and Hang Out</title>
     <script src="https://kit.fontawesome.com/a83bf5d8e7.js" crossorigin="anonymous"></script>
 
+
 </head>
 <body>
-    <div id="main">
+    <main id="main">
         <div id="overlay" ></div>
         <header class="flex">
             <div class="wrapper flex">
                 <div style="width: 125px;"><img src="Assets/discord_logo.svg" alt="discord_logo"></div>
-              
                 <nav id="nav" class="nav-menu" >
+                    <span class="nav-close"><i><i class="fa-solid fa-x"></i></i></span>
                     <ul class="flex ">
                         <li><a href="#">Download</a></li>
                         <li><a href="#">Nitro</a></li>
@@ -37,7 +39,7 @@
         </header>
 
 
-        <div class="spotlight wrapper ">
+        <section class="spotlight wrapper ">
             <div class="left"><img src="Assets/heroimage2.svg" alt="hero_img2"></div>
 
             <div class="top">
@@ -48,75 +50,70 @@
                 </p>
             </div>
             <div class="bottom flex">
-
                 <div>
                     <a class="button" href="#"><span><img src="Assets/download.svg" alt=""></span> Download for Windows</a>
                 </div>
                 <div><a class="button blk_btn" href="#">Open Discord in your browser</a></div>
-
             </div>
             <div class="right"><img src="Assets/heroimage1.svg" alt="hero_img1"></div>
 
-        </div>
-    </div>
-    <div id="center">
+        </section>
+    </main>
+    <section id="center">
         <div class="features">
-                <div class=" bg_white">
-                    <div class="wrapper flex">     
-                        <div class="ftr_img"><img src="Assets/ftr_img1.svg" alt="ftr_img1"></div>
-                        <div class="ftr_txt">
-                            <h1>Create an invite-only place where you belong</h1>
-                            <p>Discord servers are organized into topic-based channels where you can collaborate, 
-                                share, and just talk about your day without clogging up a group chat.</p>
+            <div class=" bg_white">
+                <div class="wrapper flex">     
+                    <div class="ftr_img"><img src="Assets/ftr_img1.svg" alt="ftr_img1"></div>
+                    <div class="ftr_txt">
+                        <h1>Create an invite-only place where you belong</h1>
+                        <p>Discord servers are organized into topic-based channels where you can collaborate, 
+                            share, and just talk about your day without clogging up a group chat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" bg_grey">
+                <div class="wrapper flex">     
+                    <div class="ftr_txt">
+                        <h1>Where hanging out is easy</h1>
+                        <p>Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around 
+                            and instantly pop in to talk without having to call.</p>
+                    </div>
+                    <div class="ftr_img"><img src="Assets/ftr_img2.svg" alt="ftr_img2"></div>
+                </div>
+            </div>
+            <div class=" bg_white">
+                <div class="wrapper flex">     
+                    <div class="ftr_img"><img src="Assets/ftr_img3.svg" alt="ftr_img3"></div>
+                    <div class="ftr_txt">
+                        <h1>From few to a fandom</h1>
+                        <p>Get any community running with moderation tools and custom member access. Give 
+                            members special powers, set up private channels, and more.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" grey">
+                <div class="wrapper ">     
+                    <div class="txt">
+                        <h1>RELIABLE TECH FOR STAYING CLOSE</h1>
+                        <p>Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their 
+                            games, or gather up and have a drawing session with screen share.</p>
+                    </div>
+                    <div class="ftr_img"><img src="Assets/ftr_img4.svg" alt="ftr_img4"></div>
+                    <div>
+                        <div class="img_container">
+                            <h3>Ready to start Your journey?</h3>
+                        </div>
+                        <div class="btn_container">
+                            <a class="button bg_violet" href="#"><i class="fa-solid fa-arrow-down"></i> Download for Windows</a>
                         </div>
                     </div>
                 </div>
-                <div class=" bg_grey">
-                    <div class="wrapper flex">     
-                        <div class="ftr_txt">
-                            <h1>Where hanging out is easy</h1>
-                            <p>Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around 
-                                and instantly pop in to talk without having to call.</p>
-                        </div>
-                        <div class="ftr_img"><img src="Assets/ftr_img2.svg" alt="ftr_img2"></div>
-                    </div>
-                </div>
-                <div class=" bg_white">
-                    <div class="wrapper flex">     
-                        <div class="ftr_img"><img src="Assets/ftr_img3.svg" alt="ftr_img3"></div>
-                        <div class="ftr_txt">
-                            <h1>From few to a fandom</h1>
-                            <p>Get any community running with moderation tools and custom member access. Give 
-                                members special powers, set up private channels, and more.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class=" grey">
-                    <div class="wrapper ">     
-                        <div class="txt">
-                            <h1>RELIABLE TECH FOR STAYING CLOSE</h1>
-                            <p>Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends stream their 
-                                games, or gather up and have a drawing session with screen share.</p>
-                        </div>
-                        <div class="ftr_img"><img src="Assets/ftr_img4.svg" alt="ftr_img4"></div>
-                        <div>
-                            <div class="img_container">
-                                <h3>Ready to start Your journey?</h3>
-                            </div>
-                            <div class="btn_container">
-                                <a class="button bg_violet" href="#"><i class="fa-solid fa-arrow-down"></i> Download for Windows</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
-    </div>  
+    </section>
+
     <footer style="background-color: #23272a;">
         <div class="wrapper footer_flex">
-  
             <div style="width:265px; margin-bottom: 60px;">
                 <div class="custom-select" style="width:200px;">
                     <select>
@@ -124,7 +121,7 @@
                         <option value="2">German</option> 
                     </select>
                 </div>
-        
+
                 <div class="logo">
                     <a href="#"><span><img src="Assets/x_logo.svg" alt="x"></span></a>
                     <a href="#"><span><img src="Assets/instagram_logo.svg" alt="instagram"></span></a>

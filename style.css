@@ -157,9 +157,8 @@ header ul li a {
     min-height: 400px;
     height: 100vh;
     width: 0%;
-    padding-left: 20px;
     position: absolute;
-    top: 100%;
+    top: 0;
     right: 0;
     display: block !important;
     background-color: #fff;
@@ -186,6 +185,12 @@ header ul li a {
 
 .nav-links a:active {
     text-decoration: underline;
+}
+
+.nav-close {
+    display: none;
+    padding: 15px;
+    text-align: right;
 }
 
 
@@ -442,15 +447,14 @@ footer a:hover {
         padding-inline: 0px;
     }
 
-
     #center .features .flex {
         flex-direction: column;
-        text-align: left;
+        text-align: center;
     }
 
     #center .features .flex h1 {
         font-size: 32px;
-
+        margin-top: 20px;
     }
 
     .txt {
@@ -512,7 +516,6 @@ footer a:hover {
     .bg_white {
         padding: 100px 0px 90px;
     }
-
 }
 
 
@@ -525,7 +528,7 @@ footer a:hover {
     .spotlight .top h1 {
         font-size: 26px;
         margin-bottom: 20px;
-        text-align: left;
+
     }
 
     .spotlight .top p {
