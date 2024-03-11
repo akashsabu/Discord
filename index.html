@@ -7,15 +7,17 @@
     <link href="https://fonts.cdnfonts.com/css/abc-ginto-nord-unlicensed-trial" rel="stylesheet">
     <title>Discord | Your Place to Talk and Hang Out</title>
     <script src="https://kit.fontawesome.com/a83bf5d8e7.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+
 </head>
 <body>
     <div id="main">
+        <div id="overlay" ></div>
         <header class="flex">
             <div class="wrapper flex">
                 <div style="width: 125px;"><img src="Assets/discord_logo.svg" alt="discord_logo"></div>
-                <nav class="nav-menu" >
-                    <ul class="flex">
+              
+                <nav id="nav" class="nav-menu" >
+                    <ul class="flex ">
                         <li><a href="#">Download</a></li>
                         <li><a href="#">Nitro</a></li>
                         <li><a href="#">Discover</a></li>
@@ -25,10 +27,15 @@
                         <li><a href="#">Careers</a></li>
                     </ul>
                 </nav>
-               
-                <div ><a class="header-button" href="#">Open Discord</a></div> 
+               <div class="flex" style="gap: 10px;">
+                    <div ><a class="header-button" href="#">Open Discord</a></div> 
+                    <div id="hamburger-menu">
+                    <button class="hamburger-button"> ☰ </button>
+                    </div>
+                </div>
             </div>
         </header>
+
 
         <div class="spotlight wrapper ">
             <div class="left"><img src="Assets/heroimage2.svg" alt="hero_img2"></div>
@@ -175,5 +182,9 @@
             <div><a class="footer-button " href="#">Open Discord</a></div>
         </div>
     </footer>
+    
+
+        <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
